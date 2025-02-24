@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(160, 160, 160);
+}
+.add_task{
+    margin-left: 30%;
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.add_task div>h1{
+    padding-left: 35%;
+}
+
+.task_input{
+    margin-left: 15%;
+    height: 40px;
+    width: 400px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.submit_button{
+    margin-left: 15%;
+    width: 410px;
+    height: 40px;
+    background-color: rgb(2, 240, 2);
+    border: none;
+    /* border-radius: 10px; */
+}
