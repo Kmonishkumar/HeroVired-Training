@@ -1,0 +1,198 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    background-color: #fffaf0; 
+    color: #222222; 
+}
+
+.navbar{
+    display:flex;
+    width:100%;
+    background-color: #c1a36a; 
+    padding-bottom:9px;
+    position:fixed;
+}
+.navbar h1,h2,ul,li{
+    display:flex;
+    
+}
+h1{
+    margin-left:10px;
+    margin-top:4px;
+    flex-basis:10%;
+}
+ul{
+    margin-left:60%;
+    margin-top:4px;
+    flex-basis:70%;
+}
+li{
+    margin-left:15px;
+}
+.empty{
+    width:100%;
+    height:50px;
+    background-color:white;
+}
+.container{
+    height:417px;
+    width:627px;
+    background-image:url("https://img.freepik.com/premium-photo/comic-book-page-background-with-empty-speech-bubble_840989-2806.jpg?semt=ais_hybrid");
+    display:flex;
+    justify-content:center;
+    margin-left:30%;
+    margin-top:80px;
+    
+}
+.one img,p{
+    height:250px;
+    width:230px;
+
+
+}
+.one img{
+    margin-top:50px;
+    margin-left:80px;
+}
+.one p{
+    font-weight:bolder;
+    margin-left:25px;
+    margin-top:90px;
+    margin-right:70px;
+}
+.container1{
+    margin-top:130px;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+.container1 p{
+    margin-left:85px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+.container2{
+    height:417px;
+    width:627px;
+    background-image:url("https://img.freepik.com/premium-photo/comic-book-page-background-with-empty-speech-bubble_840989-2806.jpg?semt=ais_hybrid");
+    display:flex;
+    justify-content:center;
+    margin-left:30%;
+    margin-top:80px;
+    
+}
+.two img,p{
+    height:250px;
+    width:230px;
+
+
+}
+.two img{
+    margin-top:55px;
+    margin-left:80px;
+}
+.two p{
+    font-weight:bolder;
+    margin-left:25px;
+    margin-top:90px;
+    margin-right:70px;
+}
+.container3{
+    margin-top:130px;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+.container3 p{
+    margin-left:85px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+
+.container4{
+    height:417px;
+    width:627px;
+    background-image:url("https://img.freepik.com/premium-photo/comic-book-page-background-with-empty-speech-bubble_840989-2806.jpg?semt=ais_hybrid");
+    display:flex;
+    justify-content:center;
+    margin-left:30%;
+    margin-top:80px;
+    
+}
+.three img,p{
+    height:250px;
+    width:230px;
+
+
+}
+.three img{
+    margin-top:50px;
+    margin-left:80px;
+}
+.three p{
+    font-weight:bolder;
+    margin-left:25px;
+    margin-top:90px;
+    margin-right:70px;
+}
+.container5{
+    margin-top:130px;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+.container5 p{
+    margin-left:85px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+
+.container6{
+    height:417px;
+    width:627px;
+    background-image:url("https://img.freepik.com/premium-photo/comic-book-page-background-with-empty-speech-bubble_840989-2806.jpg?semt=ais_hybrid");
+    display:flex;
+    justify-content:center;
+    margin-left:30%;
+    margin-top:80px;
+    
+}
+.four img,p{
+    height:250px;
+    width:230px;
+
+
+}
+.four img{
+    margin-top:55px;
+    margin-left:85px;
+}
+.four p{
+    font-weight:bolder;
+    margin-left:25px;
+    margin-top:90px;
+    margin-right:70px;
+}
+.container7{
+    margin-top:130px;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+.container7 p{
+    margin-left:85px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+
