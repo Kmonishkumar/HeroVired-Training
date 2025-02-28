@@ -1,11 +1,13 @@
 body {
     background-color: #2C3930;
-    color: #DCD7C9
+    color: #DCD7C9;
+    margin:0px;
+    padding:0px;
 }
 
 * {
-    padding: 0px;
-    margin: 0px;
+    padding:0px;
+    margin:0px;
 }
 
 #one {
@@ -19,10 +21,17 @@ body {
 
 
 }
+.one{
+    width:100%;
+}
+.two{
+    width:100%;
+}
 
 .one h2 {
     margin-top: 8px;
-    margin-left: 5px;
+    margin-left: 20px;
+    flex-basis:20%
 }
 
 .two {
@@ -30,6 +39,7 @@ body {
     margin-left: 70%;
     position: fixed;
     margin-top: 8px;
+    flex-basis:70%;
 
 
 
@@ -44,25 +54,37 @@ body {
 #two {
     display: flex;
     flex-wrap: wrap;
+    width:100%;
     justify-content: center;
 }
-
-.base {
-    flex-basis: 35%;
-
+.base{
+    flex-basis:35%;
 }
 
 .color {
-    font-weight: bolder;
-    flex-basis: 35%;
-    margin-top: 100px;
-    margin-left: 70px;
+    font-weight:bolder;
+    font-size:x-large;
+    height:250px;
+    width:300px;
+    margin-top:100px;
+    margin-left:70px;
+    flex-basis:35%;
 }
 
 #About {
-    margin-left: 10px;
+    margin-left: 30px;
     font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
 }
+
+.section ul{
+    margin-left:40px;
+}
+.section1 ul{
+    margin-left:33px;
+}
+
 #contact{
     color:#DCD7C9;
     margin-top:70px;
