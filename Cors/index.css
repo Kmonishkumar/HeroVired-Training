@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(136, 195, 255);
+}
+
+.div1 {
+    text-align: center;
+}
+
+.book-form {
+    display: block
+}
+
+button {
+    cursor: pointer;
+    height: 30px;
+    margin-right: 8%;
+
+}
+
+button:hover {
+    background-color: green
+}
+
