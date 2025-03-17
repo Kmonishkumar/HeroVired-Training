@@ -14,10 +14,9 @@ body {
 #one {
     display: flex;
     justify-content: space-between;
-    background-color: #3F4F44;
-    color: #DCD7C9;
     align-items: center;
-    padding: 15px;
+    background-color: #3F4F44;
+    padding: 15px 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -45,17 +44,17 @@ body {
     font-size: 1.2rem;
 }
 
-/* Responsive Navigation */
+/* Responsive Navbar */
 @media screen and (max-width: 768px) {
     #one {
         flex-direction: column;
-        padding: 10px;
+        text-align: center;
     }
 
     .two {
         flex-direction: column;
         align-items: center;
-        padding: 10px;
+        padding-top: 10px;
     }
 
     .two li {
@@ -65,18 +64,15 @@ body {
 
 /* Hero Section */
 #two {
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
-    text-align: center;
     padding: 20px;
 }
 
 .box {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     max-width: 800px;
 }
@@ -90,7 +86,20 @@ body {
 .color {
     font-size: large;
     font-weight: bold;
-    margin: 20px;
+    margin-left: 20px;
+}
+
+/* Responsive Hero Section */
+@media screen and (max-width: 768px) {
+    .box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .color {
+        margin-left: 0;
+        margin-top: 15px;
+    }
 }
 
 /* About Section */
@@ -110,54 +119,16 @@ body {
 /* Contact Section */
 #contact {
     margin-top: 90px;
-    text-align: center;
+    margin-left: 10%;
 }
 
-#contact a {
-    color: #DCD7C9;
-}
-
-/* Contact Form */
-.query {
-    margin: auto;
-    max-width: 400px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-input {
-    padding: 10px;
-    margin-top: 5px;
+#contact table {
     width: 100%;
 }
 
-.submit {
-    height: 40px;
-    background-color: orange;
-    cursor: pointer;
-    border: none;
+#contact h2 {
+    margin-bottom: 15px;
 }
 
-/* Responsive Design for Mobile */
-@media screen and (max-width: 600px) {
-    .box {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .base img {
-        max-width: 300px;
-    }
-
-    .color {
-        text-align: center;
-        font-size: medium;
-    }
-
-    .query {
-        width: 90%;
-    }
-}
+#contact a {
+    color
