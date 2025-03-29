@@ -3,47 +3,35 @@
     padding:0px;
 }
 body {
-    background-color: #fffaf0; 
-    color: #222222; 
+        background-image: url('Untitled design.png');
+        background-size: cover; 
+        background-position: center;
+         background-repeat: no-repeat;
+
+    
 }
 
 .navbar{
     display:flex;
-    width:100%;
     background-color: #c1a36a; 
-    padding-bottom:9px;
-    position:fixed;
+    padding:15px;
+    justify-content:center;
 }
-.navbar h1,h2,ul,li{
-    display:flex;
-    
-}
-h1{
-    margin-left:10px;
-    margin-top:4px;
-    flex-basis:10%;
-}
-ul{
-    margin-left:60%;
-    margin-top:4px;
-    flex-basis:70%;
-}
-li{
-    margin-left:15px;
-}
-.empty{
-    width:100%;
-    height:50px;
-    background-color:white;
+.left{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+
 }
 .container{
+
     height:417px;
     width:627px;
     background-image:url("https://img.freepik.com/premium-photo/comic-book-page-background-with-empty-speech-bubble_840989-2806.jpg?semt=ais_hybrid");
     display:flex;
     justify-content:center;
     margin-left:30%;
-    margin-top:80px;
+    margin-top:130px;
     
 }
 .one img,p{
@@ -193,6 +181,9 @@ li{
     margin-top: 15px;
     font-weight: bold;
 
+}
+#About{
+    margin-top: 100px;
 }
 
 
