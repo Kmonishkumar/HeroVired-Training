@@ -1,167 +1,63 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    background-color: #2C3930;
-    color: #DCD7C9;
-    margin:0px;
-    padding:0px;
-    font-family: 'Times New Roman', Times, serif;
-}
-#one {
-    display: flex;
-    justify-content: space-between;
-    background-color: #3F4F44;
-    color: #DCD7C9;
-    align-items: center;
-    padding: 15px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-}
-.one{
-    font-size:1.5rem;
-    font-weight:bold;
-}
-.two {
-    display: flex;
-    list-style: none;
-}
-.two li {
-    margin: 0 25px;
-}
-.two a {
-    text-decoration: none;
-    font-size: 1.4rem;
-    cursor: pointer;
-    color: #DCD7C9;
-    font-weight: bolder;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav id="one">
+        <div class="one">Monish Kumar K</div>
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <ul class="two" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    
 
+    <center>
+        <div id="contact">
+            <h2>Contact Me</h2>
+            <br><br>
+            <table>
+                <tr>
+                    <td><h3>📩 <strong>Email:</strong></h3> </td> <td><a href="mailto:kmonishkumar.vnb@gmail.com"><h3>kmonishkumar.vnb@gmail.com</a></h3></td>
+                </tr>
+                <tr>
+                    <td><h3>👨🏻‍⚖️<strong>LinkedIn:</strong></h3></td> <td><a href="https://www.linkedin.com/in/monish-kumar-k"><h3>linkedin.com/in/Monishkumark</a></h3></td>
+                    </c>
+                </tr>
+                <tr>
+                    <td><h3>🌐 <strong>Portfolio:</strong></h3></td> <td><a href="index.html"><h3>www.Monishportfolio.com</a></h3></td>
+                </tr>
+            </table>
+        </div>
+    </center> 
 
-#two{
-    margin-top:90px;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-.box{
-    height:500px;
-    width:500px;
-}
-.para{
-    font-size: 1.2rem;
-    font-weight: bolder;
-
-}
-
-#About {
-    margin-left: 30px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bolder;
-    font-size: larger;
-    margin-top:80px;
-}
-
-.section0 ul{
-    margin-left:40px;
-}
-.section1 ul{
-    margin-left:36px;
-}
-.section2 ul{
-    margin-left:35px;
-}
-.section3 ul{
-    margin-left:31px;
-}
-.section4 ul{
-    margin-left:31px;
-}
-
-.anchor{
-    text-decoration: none;
-    color: dodgerblue;
-}
-#contact{
-    color:#DCD7C9;
-    margin-top:110px;
-    font-size: large;
-
-}
-#contact a{
-    color:#DCD7C9;
-}
-
-.submit{
-    height:30px;
-    width:60px;
-    color:black;
-    background-color:orange;
-    cursor: pointer;
-}
-.query{
-    margin-left: 45%;
-    margin-top: 60px;
-    font-size: large;
-}
-hr{
-    border-style: dashed;
-    border-color:#0099ff;
-}
-
-
-/* Mobile menu icon */
-.menu-icon {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-    color: #DCD7C9;
-    position: absolute;
-    top: 15px;
-    right: 20px;
-}
-
-@media screen and (max-width: 768px) {
-    .menu-icon {
-        display: block; /* Show hamburger icon */
-    }
-
-    .two {
-        display: none; /* Hide menu by default */
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 10px;
-        background-color: #3F4F44;
-        width: 150px;
-        text-align: center;
-        border-radius: 5px;
-        padding: 10px;
-    }
-
-    .two li {
-        margin: 10px 0;
-        padding: 10px;
-        list-style: none;
-    }
-
-    .two a {
-        font-size: 1.2rem;
-        color: #DCD7C9;
-        text-decoration: none;
-        display: block;
-    }
-
-    /* Show menu when active */
-    .two.active {
-        display: flex;
-    }
-}
+<br><br>
+    <hr>
+    <div class="query">
+        <h2>Query Form</h2>
+        <br>
+        <center>
+            
+        </center>
+        <form id="contactor">
+            <label for="fname">First Name:</label> <br>
+            <input type="text" id="fname"> <br><br>
+            <label for="email">Email:</label> <br>
+            <input type="text" id="email"> <br> <br>
+            <label for="msg">Message:</label> <br>
+            <input type="text" id="msg"> <br> <br>
+            <input type="submit" value="Submit"class="submit">
+        </form>
+    </div>
+        <script src="Script.js"></script>
+    
+        
+</body>
+</html>
