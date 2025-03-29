@@ -1,6 +1,7 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     background-color: #2C3930;
@@ -9,36 +10,36 @@ body {
     padding:0px;
     font-family: 'Times New Roman', Times, serif;
 }
-#one{
-    display:flex;
+#one {
+    display: flex;
     justify-content: space-between;
     background-color: #3F4F44;
     color: #DCD7C9;
-    align-items:center;
-    padding:15px;
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    z-index: 1; 
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 .one{
     font-size:1.5rem;
     font-weight:bold;
 }
-.two{
-    display:flex;
-    list-style:none;
+.two {
+    display: flex;
+    list-style: none;
 }
-.two li{
+.two li {
     margin: 0 25px;
 }
-.two a{
-    text-decoration:none;
-    font-size:1.4rem;
+.two a {
+    text-decoration: none;
+    font-size: 1.4rem;
     cursor: pointer;
     color: #DCD7C9;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 
@@ -91,7 +92,7 @@ body {
 }
 #contact{
     color:#DCD7C9;
-    margin-top:90px;
+    margin-top:110px;
     font-size: large;
 
 }
@@ -114,4 +115,53 @@ body {
 hr{
     border-style: dashed;
     border-color:#0099ff;
+}
+
+
+/* Mobile menu icon */
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #DCD7C9;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block; /* Show hamburger icon */
+    }
+
+    .two {
+        display: none; /* Hide menu by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background-color: #3F4F44;
+        width: 150px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .two li {
+        margin: 10px 0;
+        padding: 10px;
+        list-style: none;
+    }
+
+    .two a {
+        font-size: 1.2rem;
+        color: #DCD7C9;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Show menu when active */
+    .two.active {
+        display: flex;
+    }
 }
