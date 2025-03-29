@@ -8,23 +8,8 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 
-
 <body>
-    <nav id="one">
-        <div class="one">
-            Monish Kumar K
-        </div><!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="Style.css">
-</head>
-
-
-<body>
     <nav id="one">
         <div class="one">Monish Kumar K</div>
         <span class="menu-icon" onclick="toggleMenu()">☰</span>
@@ -34,160 +19,80 @@
             <li><a href="Contact.html">Contact</a></li>
         </ul>
     </nav>
-    
-    
-    <br><br>
 
     <div id="About">
         <section class="section0">
             <h2>Educational Qualification</h2>
-            <br>
-                <ul>
-                    <li><h3>Er.Perumal Manimekalai College of Engineering - CGPA: 8.1</h3></li>
-                    <li><h3>Vaani Matric Higher Secondary School - Higher Secondary - 73.5%</h3></li>
-                    <li><h3>Vaani Matric Higher Secondary School - Higher School - 93.4%</h3></li>
-                </ul>
-        </section>
-        <br><br>
-        <section class="section1">
-            <h2>Skills</h2>
-            <br>
             <ul>
-                <li><h3>Programming Language : Python (Intermediate), Java(Basics)</h3></li>
-                <li><h3>Web Development :  HTML, CSS, JavaScript</h3></li>
-                <li><h3>Data Visualization Tools : Power BI, Matplotlib, Seaborn, Plotly</h3></li>
-                <li><h3>Database : MySQL (Basics)</h3></li>
-                <li><h3>Productivity Tools : Microsoft Word, Microsoft Excel, Microsoft PowerPoint</h3></li>
-
-
+                <li><h3>Er.Perumal Manimekalai College of Engineering - CGPA: 8.1</h3></li>
+                <li><h3>Vaani Matric Higher Secondary School - Higher Secondary - 73.5%</h3></li>
+                <li><h3>Vaani Matric Higher Secondary School - Higher School - 93.4%</h3></li>
             </ul>
         </section>
-        
-        <br><br>
+
+        <section class="section1">
+            <h2>Skills</h2>
+            <ul>
+                <li><h3>Programming Language: Python (Intermediate), Java (Basics)</h3></li>
+                <li><h3>Web Development: HTML, CSS, JavaScript</h3></li>
+                <li><h3>Data Visualization Tools: Power BI, Matplotlib, Seaborn, Plotly</h3></li>
+                <li><h3>Database: MySQL (Basics)</h3></li>
+                <li><h3>Productivity Tools: Microsoft Word, Excel, PowerPoint</h3></li>
+            </ul>
+        </section>
 
         <section class="section2">
             <h2>Projects</h2>
-            <br>
-            <article class="article">
-                <ul>
-                    <li><h3>Portfolio Website</h3><a href="https://my-portfolio-zeta-3.vercel.app/" class="anchor"><h3>Link</h3></a></li>
-                    <li><h3>E-Commerce Product Showcase</h3><a href="https://my-project-nine-virid.vercel.app/" class="anchor"><h3>Link</h3></a></li>
-                    <li><h3>To-Do List</h3><a href="" class="anchor"><h3>Link</h3></a></li>
-                    <li><h3>Magic Number Game: Predicting the Sum Like a Trick!</h3><a href="" class="anchor"><h3>Link</h3></a></li>
-                    <li><h3>Blog Website</h3><a href="https://my-blog-naruto-seven.vercel.app/" class="anchor"><h3>Link</h3></a></li>
-                </ul>
-            </article>
+            <ul>
+                <li>
+                    <h3>Portfolio Website</h3>
+                    <a href="https://my-portfolio-zeta-3.vercel.app/" class="anchor">Link</a>
+                </li>
+                <li>
+                    <h3>E-Commerce Product Showcase</h3>
+                    <a href="https://my-project-nine-virid.vercel.app/" class="anchor">Link</a>
+                </li>
+                <li>
+                    <h3>To-Do List</h3>
+                    <a href="#" class="anchor">Link</a>
+                </li>
+                <li>
+                    <h3>Magic Number Game: Predicting the Sum Like a Trick!</h3>
+                    <a href="#" class="anchor">Link</a>
+                </li>
+                <li>
+                    <h3>Blog Website</h3>
+                    <a href="https://my-blog-naruto-seven.vercel.app/" class="anchor">Link</a>
+                </li>
+            </ul>
         </section>
-        <br><br>
-        <section class="section3">
-            <h2>Area Of Interest</h2>
-            <br>
-                <ul>
-                    <li><h3>Web Development</h3></li>
-                    <li><h3>Data Science</h3></li>
-                    <li><h3>Cybersecurity</h3></li>
-                    <li><h3>Artificial Intelligence</h3></li>
 
-                </ul>
+        <section class="section3">
+            <h2>Areas of Interest</h2>
+            <ul>
+                <li><h3>Web Development</h3></li>
+                <li><h3>Data Science</h3></li>
+                <li><h3>Cybersecurity</h3></li>
+                <li><h3>Artificial Intelligence</h3></li>
+            </ul>
         </section>
-        <br><br>
+
         <section class="section4">
             <h2>Key Strengths</h2>
-            <br>
-                <ul>
-                    <li><h3>Team Collaboration</h3></li>
-                    <li><h3>Fast Learner</h3></li>
-                    <li><h3>Positive Attitude</h3></li>
-                </ul>
+            <ul>
+                <li><h3>Team Collaboration</h3></li>
+                <li><h3>Fast Learner</h3></li>
+                <li><h3>Positive Attitude</h3></li>
+            </ul>
         </section>
-
     </div>
+
     <script>
         function toggleMenu() {
-    var menu = document.getElementById("nav-links");
-    if (menu.style.display === "flex") {
-        menu.style.display = "none";
-    } else {
-        menu.style.display = "flex";
-    }
-}
+            var menu = document.getElementById("nav-links");
+            menu.classList.toggle("active");
+        }
     </script>
-</body>
-
-</html>
-        <ul class="two">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </div>
-
-    </nav>
-    <br><br>
-
-    <div id="About">
-        <section class="section0">
-            <h2>Educational Qualification</h2>
-            <br>
-                <ul>
-                    <li><h3>Er.Perumal Manimekalai College of Engineering - CGPA: 8.1</h3></li>
-                    <li><h3>Vaani Matric Higher Secondary School - Higher Secondary - 73.5%</h3></li>
-                    <li><h3>Vaani Matric Higher Secondary School - Higher School - 93.4%</h3></li>
-                </ul>
-        </section>
-        <br><br>
-        <section class="section1">
-            <h2>Skills</h2>
-            <br>
-            <ul>
-                <li><h3>Programming Language : Python (Intermediate), Java(Basics)</h3></li>
-                <li><h3>Web Development :  HTML, CSS, JavaScript</h3></li>
-                <li><h3>Data Visualization Tools : Power BI, Matplotlib, Seaborn, Plotly</h3></li>
-                <li><h3>Database : MySQL (Basics)</h3></li>
-                <li><h3>Productivity Tools : Microsoft Word, Microsoft Excel, Microsoft PowerPoint</h3></li>
-
-
-            </ul>
-        </section>
-        
-        <br><br>
-
-        <section class="section2">
-            <h2>Projects</h2>
-            <br>
-            <article class="article">
-                <ul>
-                    <li><h3>Portfolio Website</h3><a href="https://my-portfolio-zeta-3.vercel.app/" class="anchor"><h3>Link</h3></a></li>
-                    <li><h3>E-Commerce Product Showcase</h3><a href="https://my-project-nine-virid.vercel.app/" class="anchor"><h3>Link</h3></a></li>
-                    <li><h3>To-Do List</h3><a href="" class="anchor"><h3>Link</h3></a></li>
-                    <li><h3>Magic Number Game: Predicting the Sum Like a Trick!</h3><a href="" class="anchor"><h3>Link</h3></a></li>
-                    <li><h3>Blog Website</h3><a href="https://my-blog-naruto-seven.vercel.app/" class="anchor"><h3>Link</h3></a></li>
-                </ul>
-            </article>
-        </section>
-        <br><br>
-        <section class="section3">
-            <h2>Area Of Interest</h2>
-            <br>
-                <ul>
-                    <li><h3>Web Development</h3></li>
-                    <li><h3>Data Science</h3></li>
-                    <li><h3>Cybersecurity</h3></li>
-                    <li><h3>Artificial Intelligence</h3></li>
-
-                </ul>
-        </section>
-        <br><br>
-        <section class="section4">
-            <h2>Key Strengths</h2>
-            <br>
-                <ul>
-                    <li><h3>Team Collaboration</h3></li>
-                    <li><h3>Fast Learner</h3></li>
-                    <li><h3>Positive Attitude</h3></li>
-                </ul>
-        </section>
-
-    </div>
 
 </body>
 
