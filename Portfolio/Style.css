@@ -27,24 +27,28 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
 }
-#two{
-    margin-top:90px;
-    width:100%;
-    display:flex;
+
+#two {
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
 
 
 }
-.box{
-    height:500px;
-    width:500px;
+
+.box {
+    height: 500px;
+    width: 500px;
 }
-.para{
+
+.para {
     font-size: 1.2rem;
     font-weight: bolder;
 
 }
+
 .two {
     display: flex;
     list-style: none;
@@ -67,12 +71,17 @@ body {
     font-size: larger;
 }
 
-section {
-    padding: 15px;
-    
+.section0 {
+    margin-top: 60px;
 }
 
-h2, h3 {
+section {
+    padding: 15px;
+
+}
+
+h2,
+h3 {
     word-wrap: break-word;
 }
 
@@ -131,6 +140,7 @@ hr {
         margin: 160px 23px;
         font-size: larger;
     }
+
     .menu-icon {
         display: block;
     }
@@ -158,12 +168,10 @@ hr {
         display: block;
     }
 
-    /* 🟢 Show menu when active */
     .two.active {
         display: flex;
     }
 
-    /* 🟢 Ensure About Section is Fully Visible */
     #About {
         width: 95%;
         margin: auto;
