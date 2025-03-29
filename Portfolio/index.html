@@ -10,16 +10,16 @@
 
 <body>
     <nav id="one">
-        <div class="one">
-            Monish Kumar K
-        </div>
-        <ul class="two">
+        <div class="one">Monish Kumar K</div>
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <ul class="two" id="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="About.html">About</a></li>
             <li><a href="Contact.html">Contact</a></li>
         </ul>
-
     </nav>
+    
+    
 
     <div id="two">
         <div class="box">
@@ -37,6 +37,16 @@
     </div>
 
     </div>
+<script>
+    function toggleMenu() {
+    var menu = document.getElementById("nav-links");
+    if (menu.style.display === "flex") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "flex";
+    }
+}
+</script>
 </body>
 
 </html>
