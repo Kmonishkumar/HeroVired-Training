@@ -199,6 +199,10 @@ hr {
         margin: auto;
         padding: 10px;
     }
+        hr {
+        border-style: dashed;
+        border-color: #0099ff;
+    }
 }
 @media screen and (min-width: 769px) {
     #tempo {
