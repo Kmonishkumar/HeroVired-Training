@@ -13,17 +13,19 @@ body {
 }
 
 .navbar {
-    display: block;
     background-color: #c1a36a;
-    padding: 10px;
-    height: 40px;
-    width:1490px;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
+    padding:15px 0px;
+
 }
+@media screen and (max-width: 768px) {
+    .navbart {
+        width: 90%;
 
+    }
 
+.header{
+    display: block;
+}
 .container {
 
     height: 417px;
@@ -210,3 +212,5 @@ p {
 #About {
     margin-top: 100px;
 }
+
+
