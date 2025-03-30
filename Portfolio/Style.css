@@ -41,10 +41,11 @@ body {
 .box {
     height: 500px;
     width: 500px;
+
 }
 
 .para {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: bolder;
 
 }
@@ -67,7 +68,7 @@ body {
 
 #About {
     width: 90%;
-    margin: 130px 23px;
+    margin: 100px 23px;
     font-size: larger;
 }
 
@@ -97,7 +98,6 @@ ul {
 hr {
     border-style: dashed;
     border-color: #0099ff;
-    width: 1000%;
 }
 
 #contact {
@@ -134,11 +134,33 @@ hr {
 }
 
 
+
+
 @media screen and (max-width: 768px) {
-    #About {
-        width: 90%;
-        margin: 160px 23px;
-        font-size: larger;
+    #two {
+        display: none;
+    }
+
+    #tempo {
+        margin-top: 90px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .temp_pic {
+        height: 500px;
+        width: 500px;
+        margin-top: 30px;
+    }
+
+    .temp_pic h2 {
+        font-size: x-large;
+        margin-left: 30px;
+        font-weight: bolder;
+        text-align: center;
+
     }
 
     .menu-icon {
@@ -176,5 +198,14 @@ hr {
         width: 95%;
         margin: auto;
         padding: 10px;
+    }
+}
+@media screen and (min-width: 769px) {
+    #tempo {
+        display: none;
+    }
+
+    #two {
+        display: flex;
     }
 }
