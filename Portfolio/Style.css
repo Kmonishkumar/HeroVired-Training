@@ -98,6 +98,9 @@ ul {
 hr {
     border-style: dashed;
     border-color: #0099ff;
+    width: 100%; 
+    margin: 0 auto;  
+    padding: 0; 
 }
 
 #contact {
@@ -199,9 +202,9 @@ hr {
         margin: auto;
         padding: 10px;
     }
-        hr {
-        border-style: dashed;
-        border-color: #0099ff;
+    hr {
+        width: 100%;
+        margin: 0 auto;
     }
 }
 @media screen and (min-width: 769px) {
@@ -212,4 +215,5 @@ hr {
     #two {
         display: flex;
     }
+
 }
