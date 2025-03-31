@@ -12,18 +12,6 @@ body {
 
 }
 
-.header {
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 1.0rem;
-    
-
-
-}
-
 .container {
 
     height: 417px;
