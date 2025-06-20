@@ -27,6 +27,21 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
 }
+.two {
+    display: flex;
+    list-style: none;
+}
+
+.two li {
+    margin: 0 25px;
+}
+
+.two a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: #DCD7C9;
+}
 
 #two {
     margin-top: 90px;
@@ -50,21 +65,7 @@ body {
 
 }
 
-.two {
-    display: flex;
-    list-style: none;
-}
 
-.two li {
-    margin: 0 25px;
-}
-
-.two a {
-    text-decoration: none;
-    font-size: 1.4rem;
-    font-weight: bolder;
-    color: #DCD7C9;
-}
 
 #About {
     width: 90%;
@@ -98,8 +99,9 @@ ul {
 
 
 #contact {
-    margin-top: 110px;
-    font-size: large;
+    margin-top: 200px;
+    font-size:x-large;
+
 }
 
 #contact a {
