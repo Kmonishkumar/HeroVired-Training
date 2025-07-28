@@ -12,6 +12,18 @@ body {
 
 }
 
+.header {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.0rem;
+    
+
+
+}
+
 .container {
 
     height: 417px;
@@ -194,7 +206,14 @@ p {
     font-weight: bold;
 
 }
-
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    font-size:large;
+    font-weight: bold;
+}
 
 
 
